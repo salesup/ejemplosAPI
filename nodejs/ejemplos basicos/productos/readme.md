@@ -4,7 +4,7 @@ Este directorio contiene ejemplos de como manipular el catálogo de productos de
 
 ### Requerimientos previos
 
-Antes de poder ejecutar el programa es necesario ejecutar el siguientes comando:
+Antes de poder ejecutar el programa es necesario teclear el siguientes comando:
 
 ```
 >> npm install

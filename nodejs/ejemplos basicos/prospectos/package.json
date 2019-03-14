@@ -1,7 +1,7 @@
 {
-  "name": "ejemploprospectos1",
+  "name": "prospectos",
   "version": "1.0.0",
-  "description": "Ejemplo que sube un archivo csv simple por medio del API de SalesUp! CRM",
+  "description": "Ejemplos de manipulacion de prospectos por medio del API de SalesUp! CRM",
   "main": "inserta-prospecto.js",
   "dependencies": {
     "request": "^2.88.0"

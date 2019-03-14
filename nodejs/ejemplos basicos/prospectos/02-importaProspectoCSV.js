@@ -1,3 +1,8 @@
+/*
+    02-importaProspectoCSV.js
+    Este programa inserta prosepctos de un archivo separado por comas.
+*/
+
 class Prospectos {
 
   constructor() {
@@ -14,8 +19,9 @@ class Prospectos {
   insertaProspecto( csvLine ) {
       let campos = csvLine.split(',');
       const req = require('request');
-      //let url = 'https://api.salesup.com/integraciones/P01D7CCDC59-6310-4004-A888-8F2B32297DD8';
-      let url = 'https://api.salesup.com/integraciones/P01AP5A271C42-CFC8-418C-84C0-6A8CC79DD552';
+
+      // substituya aqui su token de integración
+      let url = 'https://api.salesup.com/integraciones/P0XAP6B271CD2-CFC7-418C-84C0-6A8CC79DD552';
 
       let data = {
           nombre: campos[0],
@@ -29,6 +35,7 @@ class Prospectos {
       req.post ({url:url, form:data},(err,res,body)=>{
         if (err) throw new Error (err) 
         else
+          // se agrega el contacto exitosamente
           console.log (body);
       })
 
@@ -39,7 +46,7 @@ class Prospectos {
       fs.readFile(this.archivo,'utf8',(err,data)=>{
           if (err) throw new Error (err);
 
-          data.split('\r\n').forEach((line,idx)=>{
+          data.split('\r\n').forEach((line)=>{
               this.insertaProspecto (line);
           })
       });

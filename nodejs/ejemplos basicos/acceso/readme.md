@@ -4,7 +4,7 @@ Este directorio contiene ejemplos de como acceder al API utilizando una llave de
 
 ### Requerimientos previos
 
-Antes de poder ejecutar el programa es necesario ejecutar el siguientes comando:
+Antes de poder ejecutar el programa es necesario teclear el siguientes comando:
 
 ```
 >> npm install

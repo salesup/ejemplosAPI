@@ -21,5 +21,5 @@ Para comenzar es necesario clonar el repositorio de ejemplos. Ejecute el siguien
 
 **ejemplos básicos** - Contiene diversos ejemplos sobre las entidades más comunes del CRM: prospectos, oportunidades, ventas y clientes.
 
-**importacion CFDIs** - Este programa permite importar un grupo de facturas electrónicas mexicanas (CFDIs)  directamente al sistema, creando produdctos, clientes, impuestos y todo lo necesario para reflejar exactamente el estado de las operaciones. Muy útil para realizar implementaciones.
+**importacion CFDIs** - Este programa permite importar un grupo de facturas electrónicas mexicanas (CFDIs)  directamente al sistema, creando productos, clientes, impuestos y todo lo necesario para reflejar exactamente el estado de las operaciones. Muy útil para realizar implementaciones.
 
