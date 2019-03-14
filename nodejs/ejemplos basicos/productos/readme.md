@@ -25,7 +25,7 @@ Para ejecutar el programa deseado, teclee el siguiente comando:
 
   Notas: 
   - Al no especificar columnas, el servicio devolverá todas las existentes.
-  - Al no especificar un máximo de registros el servicio devolverá los primeros 50. Si desea obtener todos los productos, consulte los [estándares de paginación] (https://desarrollo.salesup.com/induccion/estandares.html)
+  - Al no especificar un máximo de registros el servicio devolverá los primeros 50. Si desea obtener todos los productos, consulte los [estándares de paginación](https://desarrollo.salesup.com/induccion/estandares.html)
 
 
 ### 02. Convertir la lista de productos a CSV
@@ -34,7 +34,7 @@ Este ejemplo muestra como iniciar sesión, obtener la lista de productos de la c
 
 Notas:
 
-- El programa solicita los primeros 1000 registros. Consulte los [estándares de paginación] (https://desarrollo.salesup.com/induccion/estandares.html) si desea otras opciones.
+- El programa solicita los primeros 1000 registros. Consulte los [estándares de paginación](https://desarrollo.salesup.com/induccion/estandares.html) si desea otras opciones.
 
 
 
