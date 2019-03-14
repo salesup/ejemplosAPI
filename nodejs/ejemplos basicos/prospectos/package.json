@@ -1,0 +1,15 @@
+{
+  "name": "ejemploprospectos1",
+  "version": "1.0.0",
+  "description": "Ejemplo que sube un archivo csv simple por medio del API de SalesUp! CRM",
+  "main": "inserta-prospecto.js",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SalesUp! Dev Team",
+  "license": "ISC"
+}

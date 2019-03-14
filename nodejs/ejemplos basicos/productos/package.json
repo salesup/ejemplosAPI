@@ -1,0 +1,21 @@
+{
+    "name": "productos",
+    "version": "1.0.0",
+    "description": "Ejemplos de manipulación de Productos utilizando el API CRM de SalesUp!",
+    "main": "obtenAcceso.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "acceso",
+        "API",
+        "CRM"
+    ],
+    "author": "SalesUp! Dev Team",
+    "license": "ISC",
+    "dependencies": {
+        "json2csv": "^4.3.5",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.4"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "acceso",
+  "version": "1.0.0",
+  "description": "Ejemplos de acceso utilizando el API CRM de SalesUp!",
+  "main": "01-obtenAcceso.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "acceso",
+    "API",
+    "CRM"
+  ],
+  "author": "SalesUp! Dev Team",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
