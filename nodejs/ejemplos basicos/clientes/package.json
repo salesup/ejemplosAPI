@@ -1,8 +1,8 @@
 {
-  "name": "prospectos",
+  "name": "clientes",
   "version": "1.0.0",
-  "description": "Ejemplos de manipulacion de prospectos por medio del API de SalesUp! CRM",
-  "main": "listaProspectosBasico.js",
+  "description": "Ejemplos de manipulacion de clientes por medio del API de SalesUp! CRM",
+  "main": "01-listaClientesBasico.js",
   "dependencies": {
     "request": "^2.88.0"
   },
