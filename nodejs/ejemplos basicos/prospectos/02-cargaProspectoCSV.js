@@ -1,5 +1,5 @@
 /*
-    02-importaProspectoCSV.js
+    02-cargaProspectoCSV.js
     Este programa inserta prosepctos de un archivo separado por comas.
 */
 

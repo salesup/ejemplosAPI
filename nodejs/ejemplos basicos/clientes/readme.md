@@ -29,3 +29,15 @@ Para ejecutar el programa deseado, teclee el siguiente comando:
   - Al no especificar un máximo de registros el servicio devolverá los primeros 50. Si desea obtener todos los productos, consulte los [estándares de paginación](https://desarrollo.salesup.com/induccion/estandares.html).
 
 
+### 02. Descarga los clientes a un CSV
+
+ Este es un ejemplo de como descargar los clientes de una cuenta utilizando un token de sesión y almacenarlo en un archivo CSV.
+
+Notas: 
+  - Al no especificar columnas, el servicio devolverá todas las existentes.
+  - Al no especificar un usuario, el servicio devolverá los clientes que pertenezcan al token
+    al usuario asociado al token de sesión; revise [documentación de clientes](https://desarrollo.salesup.com/api-rest/clientes/#api-Clientes-GetClientes).
+  - Al no especificar un máximo de registros el servicio devolverá los primeros 50. Si desea obtener todos los productos, consulte los [estándares de paginación](https://desarrollo.salesup.com/induccion/estandares.html).
+  - El resultado se guardará en clientes CSV.
+
+

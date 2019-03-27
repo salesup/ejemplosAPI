@@ -30,10 +30,9 @@ Para ejecutar el programa deseado, teclee el siguiente comando:
 
 
 
-### 02. Importacion de Prospectos
+### 02. Carga de Prospectos de un CVS
 
-Este programa inserta prospectos directamente a una cuenta de SalesUp! tomándolos de un archivo
-de texto separado por comas. 
+Este programa carga prospectos directamente a una cuenta de SalesUp! tomándolos de un archivo de texto separado por comas. 
 
 Notas:
 - Debe proporcionar el nombre del archivo de texto como argumento
