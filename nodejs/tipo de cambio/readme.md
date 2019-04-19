@@ -26,7 +26,5 @@ Finalmente se utiliza un método PUT para actualizar el tipo de cambio a la mone
 
 El ejemplo se encuentra adaptado para obtener el tipo de cambio del dolar américano (USD), pero es posible obtener otros tipos de cambio.
 
- Consulta _[el webservice]_ de Banxico para obtener los tipos de cambio. _[Información]_ 
-[el webservice]: http://www.banxico.org.mx/DgieWSWeb/DgieWS?WSDL
-[información]: http://www.anterior.banxico.org.mx/ley-de-transparencia/consultas-frecuentes/%7B960A6514-B048-02B8-4BF2-920034786674%7D.pdf
+ Consulta _[el webservice](http://www.banxico.org.mx/DgieWSWeb/DgieWS?WSDL)_ de Banxico para obtener los tipos de cambio. Más información _[aqui](http://www.anterior.banxico.org.mx/ley-de-transparencia/consultas-frecuentes/%7B960A6514-B048-02B8-4BF2-920034786674%7D.pdf)_.
  
