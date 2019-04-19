@@ -1,0 +1,14 @@
+{
+  "name": "tipodecambio",
+  "version": "1.0.0",
+  "description": "Este ejemplo permite obtener el tipo de cambio del dolar (USD) proporcionado por Banxico, y realizar una actualización al tipo de cambio de tu moneda dolar (USD) en SalesUp! CRM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SalesUp! Dev Team",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
