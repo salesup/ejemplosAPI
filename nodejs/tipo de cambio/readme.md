@@ -1,16 +1,16 @@
-## Modificación del tipo de cambio usando la información proporcionada por el Banco de México, a través del API de SalesUp! CRM
+## Modificación del tipo de cambio utilizando la información proporcionada por el Banco de México, a través del API de SalesUp! CRM
 
-Este ejemplo permite obtener el tipo de cambio del dolar américano (USD) proporcionado por el Banco de México, posteriormente realiza una actualización al tipo de cambio de la moneda (USD) de SalesUp! CRM via API.
+Este ejemplo permite obtener el tipo de cambio del dolar américano (USD) proporcionado por el Banco de México y posteriormente realizar una actualización al tipo de cambio de la moneda (USD) de SalesUp! CRM via API.
 
 ### Requerimientos previos
 
 Antes de poder ejecutar el programa es necesario ejecutar el siguientes comando:
 
 ```
->> npm install req 
+>> npm install 
 ```
 
-Es necesario editar el archivo index.js para colocar sus credenciales de acceso a SalesUp! CRM, así como definir el token de su moneda (USD).
+Es necesario editar el archivo index.js para colocar el token de integración a SalesUp! CRM, así como definir el token de su moneda (USD).
 
 Para ejecutar el programa deseado, teclee el siguiente comando:
 
@@ -20,7 +20,7 @@ Para ejecutar el programa deseado, teclee el siguiente comando:
 
 ### Descripción general
 
-Primero se realiza un GET hacia el API del Banco de México, se obtiene un Json, el cuál tiene la información del tipo de cambio.
+Primero se realiza un GET hacia el API del Banco de México, se obtiene un JSON, el cuál tiene la información del tipo de cambio.
 Posteriormente se realiza un proceso de POST de login a SalesUp! CRM.
 Finalmente se utiliza un método PUT para actualizar el tipo de cambio a la moneda definida.
 
