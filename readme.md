@@ -23,3 +23,4 @@ Para comenzar es necesario clonar el repositorio de ejemplos. Ejecute el siguien
 
 **importacion CFDIs** - Este programa permite importar un grupo de facturas electrónicas mexicanas (CFDIs)  directamente al sistema, creando productos, clientes, impuestos y todo lo necesario para reflejar exactamente el estado de las operaciones. Muy útil para realizar implementaciones.
 
+**ejemploTipoCambio** Este ejemplo permite obtener el tipo de cambio del dolar (USD) proporcionado por Banxico, y realizar una actualización al tipo de cambio de tu moneda dolar (USD) en SalesUp! CRM.
