@@ -15,7 +15,7 @@ req.get({
          url: 'https://api.salesup.com/integraciones/sesion',
          json: true,
          headers: {
-            token: 'P011C1EF370-1E8A-4F1B-A6E9-5FEEC7BA88B7'
+            token: 'P011C1EF370-1E8A-4F2B-A6E9-56EECABA88B7'
          } // Susbsituya su propio token de integracion
       }, (err, res, body) => {
 
