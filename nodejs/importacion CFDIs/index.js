@@ -6,6 +6,8 @@
 
 */
 
+const fs = require('fs');
+
 const OPERACIONES = {
     EJECUTA: 0,
     VALIDA: 1,
@@ -14,16 +16,13 @@ const OPERACIONES = {
     OMITIR: 3
 }
 
-const config = {
-    server: 'https://api.salesup.com',
-    token: 'P022EC2546E-CD19-4BDE-B4DE-6D4F8F8CEB6B', // Substituir por el token de integración correspondiente
-    dirEntrada: '/entrada',
-    dirSalida: '/salida',
-    dirErrores: '/errores',
-    dirRaiz: __dirname,
-    omitirReceptor: [] // un arreglo con los RFC de los receptores que desea omitir
-};
-
+let config = null;
+// cargar el archivo de configuracion...
+console.log('Abriendo archivo de configuracion');
+config = JSON.parse(fs.readFileSync('config.json'));
+if (config.dirRaiz === '') {
+    config.dirRaiz = __dirname;
+}
 
 const Importador = require('./lib/importacionFacturas');
 const Clientes = require('./lib/importacionClientes');

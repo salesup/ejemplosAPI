@@ -239,7 +239,6 @@ class ImportaFacturas {
         let archivos;
         const archivosFiltrados = [];
         const dirEntrada = path.join(this.config.dirRaiz, directorio || this.config.dirEntrada);
-        console.log('Path', dirEntrada);
         try {
             archivos = fs.readdirSync(dirEntrada);
             if (archivos && archivos.length > 0) {

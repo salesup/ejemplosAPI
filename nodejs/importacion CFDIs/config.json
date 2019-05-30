@@ -1,0 +1,9 @@
+{
+    "server": "https://api.salesup.com",
+    "token": "P022EC2546E-CD19-4BDE-B4DE-6D4F8F8CEB6B",
+    "dirEntrada": "/entrada",
+    "dirSalida": "/salida",
+    "dirErrores": "/errores",
+    "dirRaiz": "",
+    "omitirReceptor": ["ASC1808146T5", "MUL150720HTA"]
+}
