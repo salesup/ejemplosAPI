@@ -19,7 +19,7 @@ test.beforeEach(t => {
 });
 
 test('probando listaFacturasParaProcesar()', t => {
-    const listaEsperada = ['0a29a5c8-4283-42b2-89c0-d94820ad4b45.pdf', '0a29a5c8-4283-42b2-89c0-d94820ad4b45.xml'];
+    const listaEsperada = ['0a29a5c8-4283-42b2-89c0-d94820ad4b45.xml'];
     const lista = t.context.importador.listaFacturasParaProcesar();
     t.deepEqual(lista, listaEsperada, 'Los archivos listados no son iguales.');   
 })
